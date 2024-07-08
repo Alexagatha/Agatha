@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:plum;
+    margin: 20px;
+  }
+  
+  h1, p {
+    text-align: center;
+    color: #333;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    width: 200px;
+    text-align: center;
+    background-color: powderblue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .grid-item p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
